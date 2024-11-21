@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f4f4f9;
+    background: linear-gradient(135deg, #f4f4f9, #dfe9f3);
     color: #333;
     line-height: 1.6;
 }
@@ -23,6 +23,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar .logo h1 {
